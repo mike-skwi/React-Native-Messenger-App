@@ -1,3 +1,8 @@
+# including the google services json because of api keys
+#
+android/app/google-services.json
+
+
 # OSX
 #
 .DS_Store
