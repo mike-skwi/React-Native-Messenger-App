@@ -3,8 +3,8 @@ I made this quick project because I wanted to do an excercise with google auth s
 
 ## Screenshot
 
-![Screenshot](screnshotforreadme.png "Screenshot")
+![Screenshot](screnshotforreadme.png)
 
 ## Video
 
-![Video](video.mov "Video")
+![Video](video.mov)
