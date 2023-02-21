@@ -32,7 +32,7 @@ const Received = ({chat}) => {
       letterSpacing: 0,
       fontWeight: '600',
       textAlign: 'left',
-      color: '#131313',
+      color: '#F1F1F1',
     },
     image: {
       width: 45,
@@ -62,7 +62,6 @@ const Received = ({chat}) => {
 
   return (
     <View style={styles.rowStyle}>
-      // TouchableOpacity is the equivalent to Flutters GestureDetector
       <TouchableOpacity key={id} style={styles.touchable}>
         <Image style={styles.image} source={{uri: imageUrl}} />
         <Text style={styles.text}>{text}</Text>
@@ -89,7 +88,7 @@ const Sent = ({chat}) => {
       letterSpacing: 0,
       fontWeight: '600',
       textAlign: 'right',
-      color: '#131313',
+      color: '#F1F1F1',
     },
     image: {
       width: 45,
@@ -112,7 +111,7 @@ const Sent = ({chat}) => {
       flexDirection: 'row',
       alignItems: 'center',
       justifyContent: 'flex-end',
-      backgroundColor: '#ffa600',
+      backgroundColor: '#2986CC',
     },
   });
 

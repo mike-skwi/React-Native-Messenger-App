@@ -1,5 +1,6 @@
 import React from 'react';
-import {StyleSheet, TouchableOpacity, Text} from 'react-native';
+import { TouchableOpacity, Text} from 'react-native';
+import { styles } from './styles'
 
 const SignOutButton = ({handleClick}) => {
   return (
@@ -8,13 +9,5 @@ const SignOutButton = ({handleClick}) => {
     </TouchableOpacity>
   );
 };
-
-const styles = StyleSheet.create({
-  text: {
-    fontSize: 14,
-    fontWeight: '600',
-    color: '#030303',
-  },
-});
 
 export default SignOutButton;

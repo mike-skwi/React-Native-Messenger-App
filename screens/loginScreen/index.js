@@ -4,7 +4,8 @@ import {
   GoogleSigninButton,
   GoogleSignin,
 } from '@react-native-google-signin/google-signin';
-import {View, StyleSheet} from 'react-native';
+import { View } from 'react-native';
+import { styles } from './styles'
 
 const LoginScreen = () => {
   
@@ -35,16 +36,5 @@ const LoginScreen = () => {
     </View>
   );
 };
-
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    width: '100%',
-    backgroundColor: '#151718',
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
-  googleButton: {width: 225, height: 60},
-});
 
 export default LoginScreen;
