@@ -4,7 +4,3 @@ I made this quick project because I wanted to do an excercise with google auth s
 ## Screenshot
 
 ![ScreenShot](./public/screenshotforreadme.png)
-
-## Video
-
-![Video](./public/video.mov)
