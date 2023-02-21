@@ -7,11 +7,11 @@
 #define TIMEOUT_SECONDS 600
 #define TEXT_TO_LOOK_FOR @"Welcome to React"
 
-@interface FireChatTests : XCTestCase
+@interface chatAppTests : XCTestCase
 
 @end
 
-@implementation FireChatTests
+@implementation chatAppTests
 
 - (BOOL)findSubviewInView:(UIView *)view matching:(BOOL (^)(UIView *view))test
 {

@@ -1,4 +1,4 @@
-package com.firechat;
+package com.chatApp;
 
 import android.app.Application;
 import com.facebook.react.PackageList;
